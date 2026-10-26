@@ -1,0 +1,73 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color); /* Cor de fundo definida no projeto */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--main-color); /* Cor principal do projeto */
+    margin-bottom: 20px;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: var(--main-color); /* Cor de fundo para cabeçalhos */
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor alternada para melhorar a legibilidade */
+}
+
+table tr:hover {
+    background-color: #e0f7fa; /* Destaque ao passar o mouse */
+}
+
+/* Link para inserir novo membro */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0361a5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}

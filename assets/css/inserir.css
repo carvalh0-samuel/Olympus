@@ -1,0 +1,77 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form select:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 5px rgba(39, 147, 242, 0.5);
+}
+
+/* Botão de envio */
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color:green ;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background-color: #024F82;
+    box-shadow: 0 0 8px rgba(2, 79, 130, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+}
