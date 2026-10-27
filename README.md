@@ -2,10 +2,12 @@
 
 > Um projeto web completo desenvolvido em colaboração com colegas da faculdade, combinando um design moderno e responsivo com um backend integrado em PHP e banco de dados MySQL.
 
-<img src="./printscreens/01.png" alt="Tela Principal - Home" width="700" />
-<img src="./printscreens/02.png" alt="Tela de Planos" width="700" />
-<img src="./printscreens/03.png" alt="Seção de Aulas" width="700" />
-<img src="./printscreens/04.png" alt="Formulário de Matrícula" width="700" />
+<div align="center">
+<img src="./printscreens/01.png" alt="Tela Principal - Home" width="600" />
+<img src="./printscreens/02.png" alt="Tela de Planos" width="600" />
+<img src="./printscreens/03.png" alt="Seção de Aulas" width="600" />
+<img src="./printscreens/04.png" alt="Formulário de Matrícula" width="600" />
+</div>
 
 ---
 
